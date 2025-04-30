@@ -1,0 +1,91 @@
+====================================================================================================
+Lint Check Report
+Questa Lint  Version 2021.1 4558100 win64 28-Jan-2021
+
+Timestamp            : Tue Apr 15 01:34:04 2025
+Description          : Report for referring checks count, check violations details, and  design information
+Design               : Alu
+Database             : C:/Users/Legion/Desktop/Digital_circuits_Project/lint.db
+Design Quality Score : 100%
+
+Sections:
+   Section 1 : Check Summary
+   Section 2 : Check Details
+   Section 3 : Design Information
+====================================================================================================
+
+
+====================================================================================================
+Section 1 : Check Summary
+====================================================================================================
+-------------
+| Error (0) |
+-------------
+
+---------------
+| Warning (0) |
+---------------
+
+------------
+| Info (5) |
+------------
+  multi_ports_in_single_line              : 5
+
+----------------
+| Resolved (0) |
+----------------
+
+
+====================================================================================================
+Section 2 : Check Details
+====================================================================================================
+-------------
+| Error (0) |
+-------------
+
+
+---------------
+| Warning (0) |
+---------------
+
+
+------------
+| Info (5) |
+------------
+
+Check: multi_ports_in_single_line [Category: Rtl Design Style] (5)
+       [Message: Multiple ports are declared in one line. Module '<module>', File '<file>', Line '<line>'.]
+------------------------------------------------------------------------------------------------------------
+multi_ports_in_single_line: [uninspected] Multiple ports are declared in one line. Module 'Alu', File 'C:/Users/Legion/Desktop/Digital_circuits_Project/Alu.v', Line '2'.
+    1 more occurrence at: line 4.
+
+multi_ports_in_single_line: [uninspected] Multiple ports are declared in one line. Module 'ffinp', File 'C:/Users/Legion/Desktop/Digital_circuits_Project/Flipflop_input.v', Line '4'.
+
+multi_ports_in_single_line: [uninspected] Multiple ports are declared in one line. Module 'ffoutp', File 'C:/Users/Legion/Desktop/Digital_circuits_Project/Flipflop_output.v', Line '4'.
+
+multi_ports_in_single_line: [uninspected] Multiple ports are declared in one line. Module 'logic_arithUnit', File 'C:/Users/Legion/Desktop/Digital_circuits_Project/Logic_Arithmetic_unit.v', Line '2'.
+
+multi_ports_in_single_line: [uninspected] Multiple ports are declared in one line. Module 'mux', File 'C:/Users/Legion/Desktop/Digital_circuits_Project/MUX.v', Line '2'.
+
+
+
+----------------
+| Resolved (0) |
+----------------
+
+
+
+====================================================================================================
+Section 3 : Design Information
+====================================================================================================
+-----------
+| Summary |
+-----------
+  Register Bits                           : 20
+  Latch Bits                              : 12
+  User-specified Blackboxes               : 0
+  Inferred Blackboxes                     : 0
+  Empty Modules                           : 0
+  Unresolved Modules                      : 0
+  Hierarchical IPs                        : 0
+

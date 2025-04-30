@@ -1,0 +1,162 @@
+# 
+# Questa Static Verification System
+# Version 2021.1 4558100 win64 28-Jan-2021
+
+log created Tue Apr 15 01:34:06 2025 by Eng.George on DESKTOP-94CQ016
+
+
+# 
+# Questa Static Verification System
+# Version 2021.1 4558100 win64 28-Jan-2021
+
+log created Tue Apr 15 01:34:01 2025 by Eng.George on DESKTOP-94CQ016
+
+
+Command: netlist elaborate
+Command arguments:
+    -zdb C:/Users/Legion/Desktop/Digital_circuits_Project/qcache/DB/zdb_9
+    -tool lint
+    -d Alu
+    -L work
+
+Questa Debug flags:
+ 4300:  lint_gui_mode        (Default False)
+
+
+## Elaborating Design...
+Reading MTI mapping for library mapping
+Writing all MTI mappings to vmap output ...
+
+Top level modules:
+	Alu
+
+Analyzing design...
+-- Loading module z0in_work.Alu
+
+Performing 103 Lint Checks
+=============================
+
+Lint Stage 1 of 5 - Pre Design Elaboration (4 checks)
+------------------------------------------------------
+-- Loading module z0in_work.ffinp
+-- Loading module z0in_work.ffoutp
+-- Loading module z0in_work.logic_arithUnit
+-- Loading module z0in_work.mux
+Optimizing 5 design-units (inlining 0/7 module instances):
+-- Optimizing module z0in_work.ffinp(fast)
+Lint Stage-1 100% complete [Total Progress -   7%]
+
+Lint Stage 2 of 5 - Design Elaboration (66 checks)
+---------------------------------------------------
+-- Optimizing module z0in_work.ffoutp(fast)
+Lint Stage-2  20% complete (1 out of 5 modules checked) [Total Progress -   8%]
+-- Optimizing module z0in_work.logic_arithUnit(fast)
+Lint Stage-2  40% complete (2 out of 5 modules checked) [Total Progress -  12%]
+-- Optimizing module z0in_work.mux(fast)
+Lint Stage-2  60% complete (3 out of 5 modules checked) [Total Progress -  15%]
+-- Optimizing module z0in_work.Alu(fast)
+Lint Stage-2  80% complete (4 out of 5 modules checked) [Total Progress -  19%]
+Optimized design name is zi_opt_def_1956804353_1
+Lint Stage-2 100% complete (5 out of 5 modules checked) [Total Progress -  23%]
+End of log Tue Apr 15 01:34:03 2025
+
+
+# 
+# Questa Static Verification System
+# Version 2021.1 4558100 win64 28-Jan-2021
+
+log created Tue Apr 15 01:34:03 2025 by Eng.George on DESKTOP-94CQ016
+
+
+Command: netlist create
+Command arguments:
+    -zdb C:/Users/Legion/Desktop/Digital_circuits_Project/qcache/DB/zdb_9
+    -tool lint
+    -d Alu
+    -L work
+
+Questa Debug flags:
+ 4300:  lint_gui_mode        (Default False)
+
+
+## Synthesizing netlist...
+
+Lint Stage 3 of 5 - Post Design Elaboration (17 checks)
+--------------------------------------------------------
+Lint Stage-3  24% complete [Total Progress -  27%]
+Lint Stage-3  47% complete [Total Progress -  29%]
+Lint Stage-3  71% complete [Total Progress -  32%]
+Lint Stage-3  94% complete [Total Progress -  34%]
+Lint Stage-3 100% complete [Total Progress -  35%]
+Analyzing designs.
+Elaborating module 'ffinp'.
+Elaborating module 'ffoutp'.
+Elaborating module 'logic_arithUnit'.
+Elaborating module 'mux'.
+Elaborating module 'Alu'.
+
+Lint Stage 4 of 5 - Design Synthesis (1 checks)
+------------------------------------------------
+Lint Stage-4 100% complete [Total Progress -  75%]
+
+Lint Stage 5 of 5 - Post Design Synthesis (15 checks)
+------------------------------------------------------
+Lint Stage-5  20% complete [Total Progress -  88%]
+Lint Stage-5  40% complete [Total Progress -  91%]
+Lint Stage-5  60% complete [Total Progress -  94%]
+Lint Stage-5  80% complete [Total Progress -  97%]
+Lint Stage-5 100% complete [Total Progress - 100%]
+
+Lint Checking Completed
+##Time Taken (Synthesis) = 211.000000 ticks = 0.211000 secs
+
+End of log Tue Apr 15 01:34:04 2025
+
+
+# Reading design database from C:/Users/Legion/Desktop/Digital_circuits_Project/qcache/LINT/CACHE...completed (0.002 (s)).
+End of log Tue Apr 15 01:34:05 2025
+
+
+# 
+# Questa Static Verification System
+# Version 2021.1 4558100 win64 28-Jan-2021
+
+log created Tue Apr 15 01:34:05 2025 by Eng.George on DESKTOP-94CQ016
+
+
+Questa Debug flags:
+ 4300:  lint_gui_mode        (Default False)
+
+
+## Applying Lint Waivers...
+Final Process Statistics: Max memory 218MB, CPU time 1s, Total time 3s
+End of log Tue Apr 15 01:34:05 2025
+
+
+Result Summary
+-----------------------------------------------------------
+Error (0)
+-----------------------------------------------------------
+
+-----------------------------------------------------------
+Warning (0)
+-----------------------------------------------------------
+
+-----------------------------------------------------------
+Info (5)
+-----------------------------------------------------------
+  multi_ports_in_single_line              :5
+
+-----------------------------------------------------------
+Resolved (0)
+-----------------------------------------------------------
+
+# Generating Debug Information...
+
+=================================================================
+To view results in batch
+  C:/Users/Legion/Desktop/Digital_circuits_Project/lint.rpt
+
+To view results in GUI (Beta Version) 
+  qverify C:/Users/Legion/Desktop/Digital_circuits_Project/lint.db
+=================================================================

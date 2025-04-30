@@ -1,0 +1,78 @@
+{C:/Users/Legion/Desktop/Digital circuits Project/Flipflop_input.v} {1 {vlog -work work -vopt -stats=none {C:/Users/Legion/Desktop/Digital circuits Project/Flipflop_input.v}
+Model Technology ModelSim SE-64 vlog 10.6d Compiler 2018.02 Feb 24 2018
+-- Compiling module ffinp
+
+Top level modules:
+	ffinp
+
+} {} {}} C:/Users/Legion/Desktop/Digital_circuits_Project/Logic_Arithmetic_unit.v {1 {vlog -work work -vopt -stats=none C:/Users/Legion/Desktop/Digital_circuits_Project/Logic_Arithmetic_unit.v
+Model Technology ModelSim SE-64 vlog 10.6d Compiler 2018.02 Feb 24 2018
+-- Compiling module logic_arithUnit
+
+Top level modules:
+	logic_arithUnit
+
+} {} {}} C:/Users/Legion/Desktop/Digital_circuits_Project/MUX.v {1 {vlog -work work -vopt -stats=none C:/Users/Legion/Desktop/Digital_circuits_Project/MUX.v
+Model Technology ModelSim SE-64 vlog 10.6d Compiler 2018.02 Feb 24 2018
+-- Compiling module mux
+
+Top level modules:
+	mux
+
+} {} {}} C:/Users/Legion/Desktop/Digital_circuits_Project/Alu.v {1 {vlog -work work -vopt -stats=none C:/Users/Legion/Desktop/Digital_circuits_Project/Alu.v
+Model Technology ModelSim SE-64 vlog 10.6d Compiler 2018.02 Feb 24 2018
+-- Compiling module Alu
+
+Top level modules:
+	Alu
+
+} {} {}} {C:/Users/Legion/Desktop/Digital circuits Project/Flipflop_output.v} {1 {vlog -work work -vopt -stats=none {C:/Users/Legion/Desktop/Digital circuits Project/Flipflop_output.v}
+Model Technology ModelSim SE-64 vlog 10.6d Compiler 2018.02 Feb 24 2018
+-- Compiling module ffoutp
+
+Top level modules:
+	ffoutp
+
+} {} {}} C:/Users/Legion/Desktop/Digital_circuits_Project/Flipflop_input.v {1 {vlog -work work -vopt -stats=none C:/Users/Legion/Desktop/Digital_circuits_Project/Flipflop_input.v
+Model Technology ModelSim SE-64 vlog 10.6d Compiler 2018.02 Feb 24 2018
+-- Compiling module ffinp
+
+Top level modules:
+	ffinp
+
+} {} {}} {C:/Users/Legion/Desktop/Digital circuits Project/Logic&Arithmetic_unit.v} {1 {vlog -work work -vopt -stats=none {C:/Users/Legion/Desktop/Digital circuits Project/Logic&Arithmetic_unit.v}
+Model Technology ModelSim SE-64 vlog 10.6d Compiler 2018.02 Feb 24 2018
+-- Compiling module logic_arithUnit
+
+Top level modules:
+	logic_arithUnit
+
+} {} {}} C:/Users/Legion/Desktop/Digital_circuits_Project/Alu_tb.v {1 {vlog -work work -vopt -stats=none C:/Users/Legion/Desktop/Digital_circuits_Project/Alu_tb.v
+Model Technology ModelSim SE-64 vlog 10.6d Compiler 2018.02 Feb 24 2018
+-- Compiling module alu_tb
+
+Top level modules:
+	alu_tb
+
+} {} {}} C:/Users/Legion/Desktop/Digital_circuits_Project/Flipflop_output.v {1 {vlog -work work -vopt -stats=none C:/Users/Legion/Desktop/Digital_circuits_Project/Flipflop_output.v
+Model Technology ModelSim SE-64 vlog 10.6d Compiler 2018.02 Feb 24 2018
+-- Compiling module ffoutp
+
+Top level modules:
+	ffoutp
+
+} {} {}} {C:/Users/Legion/Desktop/Digital circuits Project/MUX.v} {1 {vlog -work work -vopt -stats=none {C:/Users/Legion/Desktop/Digital circuits Project/MUX.v}
+Model Technology ModelSim SE-64 vlog 10.6d Compiler 2018.02 Feb 24 2018
+-- Compiling module mux
+
+Top level modules:
+	mux
+
+} {} {}} {C:/Users/Legion/Desktop/Digital circuits Project/Alu.v} {1 {vlog -work work -vopt -stats=none {C:/Users/Legion/Desktop/Digital circuits Project/Alu.v}
+Model Technology ModelSim SE-64 vlog 10.6d Compiler 2018.02 Feb 24 2018
+-- Compiling module Alu
+
+Top level modules:
+	Alu
+
+} {} {}}
